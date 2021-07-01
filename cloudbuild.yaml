@@ -37,6 +37,7 @@ steps:
   - 'DIALOGFLOW_LOCATION=$_DIALOGFLOW_LOCATION'
   - 'DIALOGFLOW_AGENT_ID=$_DIALOGFLOW_AGENT_ID'
   - 'DIALOGFLOW_LANG=$_DIALOGFLOW_LANG'
+  - 'PROJECT_ID=$PROJECT_ID'
   
 
 # Add more power, and more time, for heavy Skaffold build
