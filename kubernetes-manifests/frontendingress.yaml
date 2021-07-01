@@ -24,4 +24,10 @@ spec:
               name: tracking
               port:
                 number: 81
-
+        - path: /event/*
+          pathType: ImplementationSpecific
+          backend:
+            service:
+              name: tracking
+              port:
+                number: 81
