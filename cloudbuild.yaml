@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# This configuration file is used to build and deploy the app into a
+# This configuration file is used to build and deploy the app into a 
 # GKE cluster using Google Cloud Build.
 #
 # PREREQUISITES:
@@ -25,13 +25,19 @@
 
 steps:
 - id: 'Deploy application to cluster'
-  name: 'gcr.io/k8s-skaffold/skaffold:v0.20.0'
+  name: 'gcr.io/k8s-skaffold/skaffold:latest'
   entrypoint: 'bash'
-  args:
+  args: 
   - '-c'
-  - >
+  - > 
     gcloud container clusters get-credentials --zone=$_ZONE $_CLUSTER;
     skaffold run -f=skaffold.yaml --default-repo=gcr.io/$PROJECT_ID;
+  env:
+  - 'GTM=$_GTM'
+  - 'DIALOGFLOW_LOCATION=$_DIALOGFLOW_LOCATION'
+  - 'DIALOGFLOW_AGENT_ID=$_DIALOGFLOW_AGENT_ID'
+  - 'DIALOGFLOW_LANG=$_DIALOGFLOW_LANG'
+  
 
 # Add more power, and more time, for heavy Skaffold build
 timeout: '3600s'

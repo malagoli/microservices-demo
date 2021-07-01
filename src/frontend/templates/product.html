@@ -14,6 +14,8 @@
  limitations under the License.
 -->
 
+
+
 {{ define "product" }}
 {{ template "header" . }}
 <div {{ with $.platform_css }} class="{{.}}" {{ end }}>
@@ -54,7 +56,7 @@
                 <option>5</option>
                 <option>10</option>
               </select>
-              <button type="submit" class="btn btn-info btn-lg ml-3">Add to Cart</button>
+              <button type="submit" class="btn btn-info btn-lg ml-3" id="add_to_cart_btn">Add to Cart</button>
             </div>
           </form>
         </div>
@@ -63,12 +65,58 @@
   </div>
   <div class="container py-3 px-lg-5 py-lg-5">
     {{ if $.recommendations}}
-      {{ template "recommendations" $.recommendations }}
+    {{ template "recommendations" $.recommendations }}
     {{ end }}
 
-   {{ with $.ad }}{{ template "text_ad" . }}{{ end}}
+    {{ with $.ad }}{{ template "text_ad" . }}{{ end}}
 
   </div>
 </main>
+
+<script>
+  // impression is for legacy ecommerce layer
+  // items is for GA4 model
+
+  dataLayer.push({ ecommerce: null });
+  dataLayer.push({
+    'event': 'view_item',
+    'ecommerce': {
+      'items': [
+        {
+          'item_name': '{{$.product.Item.Name}}',
+          'item_id': '{{$.product.Item.Id}}',
+          'price': {{ renderMoneyValue $.product.Price }},
+          'item_category': '{{index $.product.Item.Categories 0}}',
+          {{if gt (len $.product.Item.Categories) 1 }}
+          'item_category2': '{{index $.product.Item.Categories 1}}',
+          {{end}}
+          
+          'index': 1,
+          'quantity': '1'
+        }
+      ]
+    }
+  });
+
+
+  // Recommendation AI Auto ML
+
+  dataLayer.push({
+    'automl': {
+        'eventType': 'detail-page-view',
+        'userInfo': {
+           'visitorId': '{{.session_id}}'
+        },
+        'productEventDetail': {
+          'productDetails': [{
+            'id': '{{$.product.Item.Id}}',
+            'quantity': 1
+          }]
+        }
+      }
+  });
+
+</script>
+
 {{ template "footer" . }}
 {{ end }}

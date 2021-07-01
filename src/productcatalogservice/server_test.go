@@ -46,7 +46,7 @@ func TestServer(t *testing.T) {
 		t.Error(diff)
 	}
 
-	got, err := client.GetProduct(ctx, &pb.GetProductRequest{Id: "OLJCESPC7Z"})
+	got, err := client.GetProduct(ctx, &pb.GetProductRequest{Id: "GGOEGDWC020199"})
 	if err != nil {
 		t.Fatal(err)
 	}

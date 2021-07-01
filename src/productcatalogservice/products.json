@@ -1,110 +1,1592 @@
 {
-    "products": [
+    "products": 
+    [
         {
-            "id": "OLJCESPC7Z",
-            "name": "Vintage Typewriter",
-            "description": "This typewriter looks good in your living room.",
-            "picture": "/static/img/products/typewriter.jpg",
-            "priceUsd": {
-                "currencyCode": "USD",
-                "units": 67,
-                "nanos": 990000000
-            },
-            "categories": ["vintage"]
+          "id": "GGOEGAAX0352",
+          "name": "Android Men's Vintage Henley",
+          "description": "Android Men's Vintage Henley",
+          "picture": "https://shop.googlemerchandisestore.com/store/20160512512/assets/items/images/GGOEGAAX0352.webp",
+          "priceUsd": {
+            "currencyCode": "USD",
+            "units": "2",
+            "nanos": "0"
+          },
+          "categories": [
+            "Home",
+            "Apparel",
+            "Men's",
+            "Men's-T-Shirts"
+          ]
         },
         {
-            "id": "66VCHSJNUP",
-            "name": "Antique Camera",
-            "description": "It probably doesn't work anyway.",
-            "picture": "/static/img/products/camera-lens.jpg",
-            "priceUsd": {
-                "currencyCode": "USD",
-                "units": 12,
-                "nanos": 490000000
-            },
-            "categories": ["photography", "vintage"]
+          "id": "GGOEGAAX0311",
+          "name": "Google Heavyweight Long Sleeve Hero Tee Navy",
+          "description": "Google Heavyweight Long Sleeve Hero Tee Navy",
+          "picture": "https://shop.googlemerchandisestore.com/store/20160512512/assets/items/images/GGOEGAAX0311.webp",
+          "priceUsd": {
+            "currencyCode": "USD",
+            "units": "3",
+            "nanos": "0"
+          },
+          "categories": [
+            "Home",
+            "Apparel",
+            "Men's",
+            "Men's-T-Shirts"
+          ]
         },
         {
-            "id": "1YMWWN1N4O",
-            "name": "Home Barista Kit",
-            "description": "Always wanted to brew coffee with Chemex and Aeropress at home?",
-            "picture": "/static/img/products/barista-kit.jpg",
-            "priceUsd": {
-                "currencyCode": "USD",
-                "units": 124
-            },
-            "categories": ["cookware"]
+          "id": "GGOEGHPJ080110",
+          "name": "Google 5-Panel Cap",
+          "description": "Google 5-Panel Cap",
+          "picture": "https://shop.googlemerchandisestore.com/store/20160512512/assets/items/images/GGOEGHPJ080110.webp",
+          "priceUsd": {
+            "currencyCode": "USD",
+            "units": "1",
+            "nanos": "0"
+          },
+          "categories": [
+            "Home",
+            "Apparel"
+          ]
         },
         {
-            "id": "L9ECAV7KIM",
-            "name": "Terrarium",
-            "description": "This terrarium will looks great in your white painted living room.",
-            "picture": "/static/img/products/terrarium.jpg",
-            "priceUsd": {
-                "currencyCode": "USD",
-                "units": 36,
-                "nanos": 450000000
-            },
-            "categories": ["gardening"]
+          "id": "GGOEGAAX0597",
+          "name": "Google Men's Quilted Insulated Vest Battleship Grey",
+          "description": "Google Men's Quilted Insulated Vest Battleship Grey",
+          "picture": "https://shop.googlemerchandisestore.com/store/20160512512/assets/items/images/GGOEGAAX0597.webp",
+          "priceUsd": {
+            "currencyCode": "USD",
+            "units": "7",
+            "nanos": "0"
+          },
+          "categories": [
+            "Home",
+            "Apparel",
+            "Men's",
+            "Men's-Outerwear"
+          ]
         },
         {
-            "id": "2ZYFJ3GM2N",
-            "name": "Film Camera",
-            "description": "This camera looks like it's a film camera, but it's actually digital.",
-            "picture": "/static/img/products/film-camera.jpg",
-            "priceUsd": {
-                "currencyCode": "USD",
-                "units": 2245
-            },
-            "categories": ["photography", "vintage"]
+          "id": "GGOEGAAX0316",
+          "name": "Android Men's 3/4 Sleeve Raglan Henley Black",
+          "description": "Android Men's 3/4 Sleeve Raglan Henley Black",
+          "picture": "https://shop.googlemerchandisestore.com/store/20160512512/assets/items/images/GGOEGAAX0316.webp",
+          "priceUsd": {
+            "currencyCode": "USD",
+            "units": "2",
+            "nanos": "0"
+          },
+          "categories": [
+            "Home",
+            "Apparel",
+            "Men's",
+            "Men's-T-Shirts"
+          ]
         },
         {
-            "id": "0PUK6V6EV0",
-            "name": "Vintage Record Player",
-            "description": "It still works.",
-            "picture": "/static/img/products/record-player.jpg",
-            "priceUsd": {
-                "currencyCode": "USD",
-                "units": 65,
-                "nanos": 500000000
-            },
-            "categories": ["music", "vintage"]
+          "id": "GGOEGAAX0363",
+          "name": "Google Women's Long Sleeve Tee Lavender",
+          "description": "Google Women's Long Sleeve Tee Lavender",
+          "picture": "https://shop.googlemerchandisestore.com/store/20160512512/assets/items/images/GGOEGAAX0363.webp",
+          "priceUsd": {
+            "currencyCode": "USD",
+            "units": "2",
+            "nanos": "0"
+          },
+          "categories": [
+            "Home",
+            "Apparel",
+            "Women's",
+            "Women's-T-Shirts"
+          ]
         },
         {
-            "id": "LS4PSXUNUM",
-            "name": "Metal Camping Mug",
-            "description": "You probably don't go camping that often but this is better than plastic cups.",
-            "picture": "/static/img/products/camp-mug.jpg",
-            "priceUsd": {
-                "currencyCode": "USD",
-                "units": 24,
-                "nanos": 330000000
-            },
-            "categories": ["cookware"]
+          "id": "GGOEGAAX0350",
+          "name": "Google Men's Bayside Graphic Tee",
+          "description": "Google Men's Bayside Graphic Tee",
+          "picture": "https://shop.googlemerchandisestore.com/store/20160512512/assets/items/images/GGOEGAAX0350.webp",
+          "priceUsd": {
+            "currencyCode": "USD",
+            "units": "1",
+            "nanos": "0"
+          },
+          "categories": [
+            "Home",
+            "Apparel",
+            "Men's",
+            "Men's-T-Shirts"
+          ]
         },
         {
-            "id": "9SIQT8TOJO",
-            "name": "City Bike",
-            "description": "This single gear bike probably cannot climb the hills of San Francisco.",
-            "picture": "/static/img/products/city-bike.jpg",
-            "priceUsd": {
-                "currencyCode": "USD",
-                "units": 789,
-                "nanos": 500000000
-            },
-            "categories": ["cycling"]
+          "id": "GGOEGAAX0315",
+          "name": "Google 3/4 Sleeve Raglan Badge Henley Black",
+          "description": "Google 3/4 Sleeve Raglan Badge Henley Black",
+          "picture": "https://shop.googlemerchandisestore.com/store/20160512512/assets/items/images/GGOEGAAX0315.webp",
+          "priceUsd": {
+            "currencyCode": "USD",
+            "units": "2",
+            "nanos": "0"
+          },
+          "categories": [
+            "Home",
+            "Apparel",
+            "Men's",
+            "Men's-T-Shirts"
+          ]
         },
         {
-            "id": "6E92ZMYYFZ",
-            "name": "Air Plant",
-            "description": "Have you ever wondered whether air plants need water? Buy one and figure out.",
-            "picture": "/static/img/products/air-plant.jpg",
-            "priceUsd": {
-                "currencyCode": "USD",
-                "units": 12,
-                "nanos": 300000000
-            },
-            "categories": ["gardening"]
+          "id": "GGOEGCNB021099",
+          "name": "Seat Pack Organizer",
+          "description": "Seat Pack Organizer",
+          "picture": "https://shop.googlemerchandisestore.com/store/20160512512/assets/items/images/GGOEGCNB021099.webp",
+          "priceUsd": {
+            "currencyCode": "USD",
+            "units": "1",
+            "nanos": "0"
+          },
+          "categories": [
+            "Home",
+            "Lifestyle"
+          ]
+        },
+        {
+          "id": "GGOEGAAX0213",
+          "name": "Yoga Mat",
+          "description": "Yoga Mat",
+          "picture": "https://shop.googlemerchandisestore.com/store/20160512512/assets/items/images/GGOEGAAX0213.webp",
+          "priceUsd": {
+            "currencyCode": "USD",
+            "units": "2",
+            "nanos": "0"
+          },
+          "categories": [
+            "Home",
+            "Accessories",
+            "Sports & Fitness"
+          ]
+        },
+        {
+          "id": "GGOEGAAX0607",
+          "name": "Google Women's Convertible Vest-Jacket Sea Foam Green",
+          "description": "Google Women's Convertible Vest-Jacket Sea Foam Green",
+          "picture": "https://shop.googlemerchandisestore.com/store/20160512512/assets/items/images/GGOEGAAX0607.webp",
+          "priceUsd": {
+            "currencyCode": "USD",
+            "units": "9",
+            "nanos": "0"
+          },
+          "categories": [
+            "Home",
+            "Shop by Brand",
+            "Google"
+          ]
+        },
+        {
+          "id": "GGOEGBRJ037299",
+          "name": "Google Alpine Style Backpack",
+          "description": "Google Alpine Style Backpack",
+          "picture": "https://shop.googlemerchandisestore.com/store/20160512512/assets/items/images/GGOEGBRJ037299.webp",
+          "priceUsd": {
+            "currencyCode": "USD",
+            "units": "9",
+            "nanos": "0"
+          },
+          "categories": [
+            "Home",
+            "Shop by Brand",
+            "Google"
+          ]
+        },
+        {
+          "id": "GGOEGAAX0107",
+          "name": "Google Men's 100% Cotton Short Sleeve Hero Tee Red",
+          "description": "Google Men's 100% Cotton Short Sleeve Hero Tee Red",
+          "picture": "https://shop.googlemerchandisestore.com/store/20160512512/assets/items/images/GGOEGAAX0107.webp",
+          "priceUsd": {
+            "currencyCode": "USD",
+            "units": "1",
+            "nanos": "0"
+          },
+          "categories": [
+            "Home",
+            "Apparel"
+          ]
+        },
+        {
+          "id": "GGOEGAAX0582",
+          "name": "Google Women's Lightweight Microfleece Jacket",
+          "description": "Google Women's Lightweight Microfleece Jacket",
+          "picture": "https://shop.googlemerchandisestore.com/store/20160512512/assets/items/images/GGOEGAAX0582.webp",
+          "priceUsd": {
+            "currencyCode": "USD",
+            "units": "7",
+            "nanos": "0"
+          },
+          "categories": [
+            "Home",
+            "Apparel",
+            "Women's",
+            "Women's-Outerwear"
+          ]
+        },
+        {
+          "id": "GGOEGAAX0364",
+          "name": "Google Women's Tee Grey",
+          "description": "Google Women's Tee Grey",
+          "picture": "https://shop.googlemerchandisestore.com/store/20160512512/assets/items/images/GGOEGAAX0364.webp",
+          "priceUsd": {
+            "currencyCode": "USD",
+            "units": "2",
+            "nanos": "0"
+          },
+          "categories": [
+            "Home",
+            "Apparel",
+            "Women's",
+            "Women's-T-Shirts"
+          ]
+        },
+        {
+          "id": "GGOEGAAX0339",
+          "name": "Google Men's Vintage Badge Tee White",
+          "description": "Google Men's Vintage Badge Tee White",
+          "picture": "https://shop.googlemerchandisestore.com/store/20160512512/assets/items/images/GGOEGAAX0339.webp",
+          "priceUsd": {
+            "currencyCode": "USD",
+            "units": "1",
+            "nanos": "0"
+          },
+          "categories": [
+            "Home",
+            "Apparel",
+            "Men's"
+          ]
+        },
+        {
+          "id": "GGOEGAAX0285",
+          "name": "Google  Women's Muscle Tee",
+          "description": "Google  Women's Muscle Tee",
+          "picture": "https://shop.googlemerchandisestore.com/store/20160512512/assets/items/images/GGOEGAAX0285.webp",
+          "priceUsd": {
+            "currencyCode": "USD",
+            "units": "1",
+            "nanos": "0"
+          },
+          "categories": [
+            "Home",
+            "Apparel",
+            "Women's",
+            "Women's-T-Shirts"
+          ]
+        },
+        {
+          "id": "GGOEGACB023699",
+          "name": "Yoga Block",
+          "description": "Yoga Block",
+          "picture": "https://shop.googlemerchandisestore.com/store/20160512512/assets/items/images/GGOEGACB023699.webp",
+          "priceUsd": {
+            "currencyCode": "USD",
+            "units": "1",
+            "nanos": "0"
+          },
+          "categories": [
+            "Home",
+            "Accessories"
+          ]
+        },
+        {
+          "id": "GGOEGAAX0690",
+          "name": "Google Youth Short Sleeve Tee White",
+          "description": "Google Youth Short Sleeve Tee White",
+          "picture": "https://shop.googlemerchandisestore.com/store/20160512512/assets/items/images/GGOEGAAX0690.webp",
+          "priceUsd": {
+            "currencyCode": "USD",
+            "units": "1",
+            "nanos": "0"
+          },
+          "categories": [
+            "Home",
+            "Apparel",
+            "Kid's",
+            "Kids-Youth"
+          ]
+        },
+        {
+          "id": "GGOEGAAX0318",
+          "name": "YouTube Men's Short Sleeve Hero Tee Black",
+          "description": "YouTube Men's Short Sleeve Hero Tee Black",
+          "picture": "https://shop.googlemerchandisestore.com/store/20160512512/assets/items/images/GGOEGAAX0318.webp",
+          "priceUsd": {
+            "currencyCode": "USD",
+            "units": "1",
+            "nanos": "0"
+          },
+          "categories": [
+            "Home",
+            "Apparel",
+            "Men's",
+            "Men's-T-Shirts"
+          ]
+        },
+        {
+          "id": "GGOEGEGQ024299",
+          "name": "Grip Kit Cable Organizer",
+          "description": "Grip Kit Cable Organizer",
+          "picture": "https://shop.googlemerchandisestore.com/store/20160512512/assets/items/images/GGOEGEGQ024299.webp",
+          "priceUsd": {
+            "currencyCode": "USD",
+            "units": "1",
+            "nanos": "0"
+          },
+          "categories": [
+            "Home",
+            "Accessories"
+          ]
+        },
+        {
+          "id": "GGOEGAAX0606",
+          "name": "Google Women's Convertible Vest-Jacket Black",
+          "description": "Google Women's Convertible Vest-Jacket Black",
+          "picture": "https://shop.googlemerchandisestore.com/store/20160512512/assets/items/images/GGOEGAAX0606.webp",
+          "priceUsd": {
+            "currencyCode": "USD",
+            "units": "9",
+            "nanos": "0"
+          },
+          "categories": [
+            "Home",
+            "Apparel",
+            "Women's",
+            "Women's-Outerwear"
+          ]
+        },
+        {
+          "id": "GGOEGAAX0578",
+          "name": "Google Women's Performance Full Zip Jacket Black",
+          "description": "Google Women's Performance Full Zip Jacket Black",
+          "picture": "https://shop.googlemerchandisestore.com/store/20160512512/assets/items/images/GGOEGAAX0578.webp",
+          "priceUsd": {
+            "currencyCode": "USD",
+            "units": "11",
+            "nanos": "0"
+          },
+          "categories": [
+            "Home",
+            "Apparel",
+            "Women's",
+            "Women's-Performance Wear"
+          ]
+        },
+        {
+          "id": "GGOEGAAX0293",
+          "name": "Android Women's Short Sleeve Tri-blend Badge Tee Light Grey",
+          "description": "Android Women's Short Sleeve Tri-blend Badge Tee Light Grey",
+          "picture": "https://shop.googlemerchandisestore.com/store/20160512512/assets/items/images/GGOEGAAX0293.webp",
+          "priceUsd": {
+            "currencyCode": "USD",
+            "units": "1",
+            "nanos": "0"
+          },
+          "categories": [
+            "Home",
+            "Apparel",
+            "Women's",
+            "Women's-T-Shirts"
+          ]
+        },
+        {
+          "id": "GGOEGAAX0573",
+          "name": "Google Men's Lightweight Microfleece Jacket Black",
+          "description": "Google Men's Lightweight Microfleece Jacket Black",
+          "picture": "https://shop.googlemerchandisestore.com/store/20160512512/assets/items/images/GGOEGAAX0573.webp",
+          "priceUsd": {
+            "currencyCode": "USD",
+            "units": "5",
+            "nanos": "0"
+          },
+          "categories": [
+            "Home",
+            "Apparel",
+            "Men's",
+            "Men's-Outerwear"
+          ]
+        },
+        {
+          "id": "GGOEGBRA037499",
+          "name": "Waterproof Backpack",
+          "description": "Waterproof Backpack",
+          "picture": "https://shop.googlemerchandisestore.com/store/20160512512/assets/items/images/GGOEGBRA037499.webp",
+          "priceUsd": {
+            "currencyCode": "USD",
+            "units": "7",
+            "nanos": "0"
+          },
+          "categories": [
+            "Home",
+            "Bags",
+            "Backpacks"
+          ]
+        },
+        {
+          "id": "GGOEGAAX0566",
+          "name": "Google Men's Weatherblock Shell Jacket Black",
+          "description": "Google Men's Weatherblock Shell Jacket Black",
+          "picture": "https://shop.googlemerchandisestore.com/store/20160512512/assets/items/images/GGOEGAAX0566.webp",
+          "priceUsd": {
+            "currencyCode": "USD",
+            "units": "7",
+            "nanos": "0"
+          },
+          "categories": [
+            "Home",
+            "Apparel",
+            "Men's",
+            "Men's-Outerwear"
+          ]
+        },
+        {
+          "id": "GGOEGGCX056499",
+          "name": "Gift Card - $50.00",
+          "description": "Gift Card - $50.00",
+          "picture": "https://shop.googlemerchandisestore.com/store/20160512512/assets/items/images/GGOEGGCX056499.webp",
+          "priceUsd": {
+            "currencyCode": "USD",
+            "units": "5",
+            "nanos": "0"
+          },
+          "categories": [
+            "Home",
+            "Gift Cards"
+          ]
+        },
+        {
+          "id": "GGOEGAAX0664",
+          "name": "Android Toddler Short Sleeve T-shirt Aqua",
+          "description": "Android Toddler Short Sleeve T-shirt Aqua",
+          "picture": "https://shop.googlemerchandisestore.com/store/20160512512/assets/items/images/GGOEGAAX0664.webp",
+          "priceUsd": {
+            "currencyCode": "USD",
+            "units": "1",
+            "nanos": "0"
+          },
+          "categories": [
+            "Home",
+            "Apparel"
+          ]
+        },
+        {
+          "id": "GGOEGAAX0332",
+          "name": "Google Men's Long Sleeve Baseball Raglan Cranberry",
+          "description": "Google Men's Long Sleeve Baseball Raglan Cranberry",
+          "picture": "https://shop.googlemerchandisestore.com/store/20160512512/assets/items/images/GGOEGAAX0332.webp",
+          "priceUsd": {
+            "currencyCode": "USD",
+            "units": "2",
+            "nanos": "0"
+          },
+          "categories": [
+            "Home",
+            "Apparel",
+            "Men's",
+            "Men's-T-Shirts"
+          ]
+        },
+        {
+          "id": "GGOEGAAX0629",
+          "name": "Google Baby Essentials Set",
+          "description": "Google Baby Essentials Set",
+          "picture": "https://shop.googlemerchandisestore.com/store/20160512512/assets/items/images/GGOEGAAX0629.webp",
+          "priceUsd": {
+            "currencyCode": "USD",
+            "units": "3",
+            "nanos": "0"
+          },
+          "categories": [
+            "Home",
+            "Apparel",
+            "Kid's",
+            "Kid's-Infant"
+          ]
+        },
+        {
+          "id": "GGOEGBJC076099",
+          "name": "Google Canvas Tote Fruit Games Lemon",
+          "description": "Google Canvas Tote Fruit Games Lemon",
+          "picture": "https://shop.googlemerchandisestore.com/store/20160512512/assets/items/images/GGOEGBJC076099.webp",
+          "priceUsd": {
+            "currencyCode": "USD",
+            "units": "2",
+            "nanos": "0"
+          },
+          "categories": [
+            "Home",
+            "Fruit Games"
+          ]
+        },
+        {
+          "id": "GGOEGAAX0328",
+          "name": "Google Men's Skater Tee Charcoal",
+          "description": "Google Men's Skater Tee Charcoal",
+          "picture": "https://shop.googlemerchandisestore.com/store/20160512512/assets/items/images/GGOEGAAX0328.webp",
+          "priceUsd": {
+            "currencyCode": "USD",
+            "units": "1",
+            "nanos": "0"
+          },
+          "categories": [
+            "Home",
+            "Apparel",
+            "Men's"
+          ]
+        },
+        {
+          "id": "GGOEGAAX0661",
+          "name": "You Tube Toddler Short Sleeve Tee Red",
+          "description": "You Tube Toddler Short Sleeve Tee Red",
+          "picture": "https://shop.googlemerchandisestore.com/store/20160512512/assets/items/images/GGOEGAAX0661.webp",
+          "priceUsd": {
+            "currencyCode": "USD",
+            "units": "1",
+            "nanos": "0"
+          },
+          "categories": [
+            "Home",
+            "Apparel",
+            "Kid's",
+            "Kid's-Toddler"
+          ]
+        },
+        {
+          "id": "GGOEAHPB080210",
+          "name": "Android 5-Panel Low Cap",
+          "description": "Android 5-Panel Low Cap",
+          "picture": "https://shop.googlemerchandisestore.com/store/20160512512/assets/items/images/GGOEAHPB080210.webp",
+          "priceUsd": {
+            "currencyCode": "USD",
+            "units": "1",
+            "nanos": "0"
+          },
+          "categories": [
+            "Home",
+            "Apparel",
+            "Headgear"
+          ]
+        },
+        {
+          "id": "GGOEGAAX0748",
+          "name": "Google Toddler Tee Fruit Games Cherries",
+          "description": "Google Toddler Tee Fruit Games Cherries",
+          "picture": "https://shop.googlemerchandisestore.com/store/20160512512/assets/items/images/GGOEGAAX0748.webp",
+          "priceUsd": {
+            "currencyCode": "USD",
+            "units": "2",
+            "nanos": "0"
+          },
+          "categories": [
+            "Home",
+            "Fruit Games"
+          ]
+        },
+        {
+          "id": "GGOEGAAX0749",
+          "name": "Google Toddler Tee Fruit Games Banana",
+          "description": "Google Toddler Tee Fruit Games Banana",
+          "picture": "https://shop.googlemerchandisestore.com/store/20160512512/assets/items/images/GGOEGAAX0749.webp",
+          "priceUsd": {
+            "currencyCode": "USD",
+            "units": "2",
+            "nanos": "0"
+          },
+          "categories": [
+            "Home",
+            "Fruit Games"
+          ]
+        },
+        {
+          "id": "GGOEGAAX0795",
+          "name": "25L Classic Rucksack",
+          "description": "25L Classic Rucksack",
+          "picture": "https://shop.googlemerchandisestore.com/store/20160512512/assets/items/images/GGOEGAAX0795.webp",
+          "priceUsd": {
+            "currencyCode": "USD",
+            "units": "7",
+            "nanos": "0"
+          },
+          "categories": [
+            "Home",
+            "Bags",
+            "Backpacks"
+          ]
+        },
+        {
+          "id": "GGOEGAAX0601",
+          "name": "Google Women's Short Sleeve Performance Tee Pewter",
+          "description": "Google Women's Short Sleeve Performance Tee Pewter",
+          "picture": "https://shop.googlemerchandisestore.com/store/20160512512/assets/items/images/GGOEGAAX0601.webp",
+          "priceUsd": {
+            "currencyCode": "USD",
+            "units": "2",
+            "nanos": "0"
+          },
+          "categories": [
+            "Home",
+            "Apparel",
+            "Women's",
+            "Women's-T-Shirts"
+          ]
+        },
+        {
+          "id": "GGOEGAAX0334",
+          "name": "Android Men's Long Sleeve Badge Crew Tee Heather",
+          "description": "Android Men's Long Sleeve Badge Crew Tee Heather",
+          "picture": "https://shop.googlemerchandisestore.com/store/20160512512/assets/items/images/GGOEGAAX0334.webp",
+          "priceUsd": {
+            "currencyCode": "USD",
+            "units": "2",
+            "nanos": "0"
+          },
+          "categories": [
+            "Home",
+            "Apparel",
+            "Men's",
+            "Men's-T-Shirts"
+          ]
+        },
+        {
+          "id": "GGOEGAAX0304",
+          "name": "Google Women's 3/4 Sleeve Baseball Raglan Heather/Black",
+          "description": "Google Women's 3/4 Sleeve Baseball Raglan Heather/Black",
+          "picture": "https://shop.googlemerchandisestore.com/store/20160512512/assets/items/images/GGOEGAAX0304.webp",
+          "priceUsd": {
+            "currencyCode": "USD",
+            "units": "1",
+            "nanos": "0"
+          },
+          "categories": [
+            "(not set)"
+          ]
+        },
+        {
+          "id": "GGOEGAAX0308",
+          "name": "Google Women's Long Sleeve Blended Cardigan Charcoal",
+          "description": "Google Women's Long Sleeve Blended Cardigan Charcoal",
+          "picture": "https://shop.googlemerchandisestore.com/store/20160512512/assets/items/images/GGOEGAAX0308.webp",
+          "priceUsd": {
+            "currencyCode": "USD",
+            "units": "2",
+            "nanos": "0"
+          },
+          "categories": [
+            "Home",
+            "Apparel",
+            "Women's",
+            "Women's-Outerwear"
+          ]
+        },
+        {
+          "id": "GGOEGAAX0580",
+          "name": "Google Women's 1/4 Zip Jacket Charcoal",
+          "description": "Google Women's 1/4 Zip Jacket Charcoal",
+          "picture": "https://shop.googlemerchandisestore.com/store/20160512512/assets/items/images/GGOEGAAX0580.webp",
+          "priceUsd": {
+            "currencyCode": "USD",
+            "units": "8",
+            "nanos": "0"
+          },
+          "categories": [
+            "Home",
+            "Apparel",
+            "Women's",
+            "Women's-Outerwear"
+          ]
+        },
+        {
+          "id": "GGOEGAAX0568",
+          "name": "Google Men's Watershed Full Zip Hoodie Grey",
+          "description": "Google Men's Watershed Full Zip Hoodie Grey",
+          "picture": "https://shop.googlemerchandisestore.com/store/20160512512/assets/items/images/GGOEGAAX0568.webp",
+          "priceUsd": {
+            "currencyCode": "USD",
+            "units": "10",
+            "nanos": "0"
+          },
+          "categories": [
+            "Home",
+            "Shop by Brand"
+          ]
+        },
+        {
+          "id": "GGOEGAAX0624",
+          "name": "Android Infant Short Sleeve Tee Aqua",
+          "description": "Android Infant Short Sleeve Tee Aqua",
+          "picture": "https://shop.googlemerchandisestore.com/store/20160512512/assets/items/images/GGOEGAAX0624.webp",
+          "priceUsd": {
+            "currencyCode": "USD",
+            "units": "1",
+            "nanos": "0"
+          },
+          "categories": [
+            "Home",
+            "Shop by Brand",
+            "Android"
+          ]
+        },
+        {
+          "id": "GGOEGAAX0588",
+          "name": "Google Women's Shell Jacket Blue/Black",
+          "description": "Google Women's Shell Jacket Blue/Black",
+          "picture": "https://shop.googlemerchandisestore.com/store/20160512512/assets/items/images/GGOEGAAX0588.webp",
+          "priceUsd": {
+            "currencyCode": "USD",
+            "units": "7",
+            "nanos": "0"
+          },
+          "categories": [
+            "Home",
+            "Apparel",
+            "Women's",
+            "Women's-Outerwear"
+          ]
+        },
+        {
+          "id": "GGOEGAAX0781",
+          "name": "Google Leather Journal",
+          "description": "Google Leather Journal",
+          "picture": "https://shop.googlemerchandisestore.com/store/20160512512/assets/items/images/GGOEGAAX0781.webp",
+          "priceUsd": {
+            "currencyCode": "USD",
+            "units": "3",
+            "nanos": "0"
+          },
+          "categories": [
+            "Home",
+            "Office",
+            "Notebooks & Journals"
+          ]
+        },
+        {
+          "id": "GGOEGBCR024399",
+          "name": "Google Lunch Bag",
+          "description": "Google Lunch Bag",
+          "picture": "https://shop.googlemerchandisestore.com/store/20160512512/assets/items/images/GGOEGBCR024399.webp",
+          "priceUsd": {
+            "currencyCode": "USD",
+            "units": "1",
+            "nanos": "0"
+          },
+          "categories": [
+            "Home",
+            "Lifestyle"
+          ]
+        },
+        {
+          "id": "GGOEACCQ017299",
+          "name": "Android Lunch Kit",
+          "description": "Android Lunch Kit",
+          "picture": "https://shop.googlemerchandisestore.com/store/20160512512/assets/items/images/GGOEACCQ017299.webp",
+          "priceUsd": {
+            "currencyCode": "USD",
+            "units": "1",
+            "nanos": "0"
+          },
+          "categories": [
+            "Home",
+            "Accessories",
+            "Housewares"
+          ]
+        },
+        {
+          "id": "GGOEGAAX0042",
+          "name": "Android Stretch Fit Hat",
+          "description": "Android Stretch Fit Hat",
+          "picture": "https://shop.googlemerchandisestore.com/store/20160512512/assets/items/images/GGOEGAAX0042.webp",
+          "priceUsd": {
+            "currencyCode": "USD",
+            "units": "1",
+            "nanos": "0"
+          },
+          "categories": [
+            "Home",
+            "Apparel",
+            "Headgear"
+          ]
+        },
+        {
+          "id": "GGOEGBPB081999",
+          "name": "UpCycled Bike Saddle Bag",
+          "description": "UpCycled Bike Saddle Bag",
+          "picture": "https://shop.googlemerchandisestore.com/store/20160512512/assets/items/images/GGOEGBPB081999.webp",
+          "priceUsd": {
+            "currencyCode": "USD",
+            "units": "4",
+            "nanos": "0"
+          },
+          "categories": [
+            "Home",
+            "Bags"
+          ]
+        },
+        {
+          "id": "GGOEGAAX0127",
+          "name": "Android 24 oz Contigo Bottle",
+          "description": "Android 24 oz Contigo Bottle",
+          "picture": "https://shop.googlemerchandisestore.com/store/20160512512/assets/items/images/GGOEGAAX0127.webp",
+          "priceUsd": {
+            "currencyCode": "USD",
+            "units": "1",
+            "nanos": "0"
+          },
+          "categories": [
+            "Home",
+            "Drinkware"
+          ]
+        },
+        {
+          "id": "GGOEGDHQ015399",
+          "name": "26 oz Double Wall Insulated Bottle",
+          "description": "26 oz Double Wall Insulated Bottle",
+          "picture": "https://shop.googlemerchandisestore.com/store/20160512512/assets/items/images/GGOEGDHQ015399.webp",
+          "priceUsd": {
+            "currencyCode": "USD",
+            "units": "2",
+            "nanos": "0"
+          },
+          "categories": [
+            "(not set)"
+          ]
+        },
+        {
+          "id": "GGOEGAAX0279",
+          "name": "Google Women's Short Sleeve Hero Tee White",
+          "description": "Google Women's Short Sleeve Hero Tee White",
+          "picture": "https://shop.googlemerchandisestore.com/store/20160512512/assets/items/images/GGOEGAAX0279.webp",
+          "priceUsd": {
+            "currencyCode": "USD",
+            "units": "1",
+            "nanos": "0"
+          },
+          "categories": [
+            "Home",
+            "Apparel",
+            "Women's",
+            "Women's-T-Shirts"
+          ]
+        },
+        {
+          "id": "GGOEGAAX0105",
+          "name": "Google Men's 100% Cotton Short Sleeve Hero Tee Black",
+          "description": "Google Men's 100% Cotton Short Sleeve Hero Tee Black",
+          "picture": "https://shop.googlemerchandisestore.com/store/20160512512/assets/items/images/GGOEGAAX0105.webp",
+          "priceUsd": {
+            "currencyCode": "USD",
+            "units": "1",
+            "nanos": "0"
+          },
+          "categories": [
+            "Home",
+            "Shop by Brand",
+            "Google"
+          ]
+        },
+        {
+          "id": "GGOEGOAB021499",
+          "name": "Metal Texture Roller Pen",
+          "description": "Metal Texture Roller Pen",
+          "picture": "https://shop.googlemerchandisestore.com/store/20160512512/assets/items/images/GGOEGOAB021499.webp",
+          "priceUsd": {
+            "currencyCode": "USD",
+            "units": "2",
+            "nanos": "0"
+          },
+          "categories": [
+            "Home",
+            "Office"
+          ]
+        },
+        {
+          "id": "GGOEGAAX0735",
+          "name": "Google Collapsible Duffel",
+          "description": "Google Collapsible Duffel",
+          "picture": "https://shop.googlemerchandisestore.com/store/20160512512/assets/items/images/GGOEGAAX0735.webp",
+          "priceUsd": {
+            "currencyCode": "USD",
+            "units": "1",
+            "nanos": "0"
+          },
+          "categories": [
+            "Home",
+            "Bags",
+            "More Bags"
+          ]
+        },
+        {
+          "id": "GGOEGAAX0292",
+          "name": "Google Women's Short Sleeve Shirt Red",
+          "description": "Google Women's Short Sleeve Shirt Red",
+          "picture": "https://shop.googlemerchandisestore.com/store/20160512512/assets/items/images/GGOEGAAX0292.webp",
+          "priceUsd": {
+            "currencyCode": "USD",
+            "units": "1",
+            "nanos": "0"
+          },
+          "categories": [
+            "Home",
+            "Shop by Brand",
+            "Google"
+          ]
+        },
+        {
+          "id": "GGOEGAAX0734",
+          "name": "Google Men's Short Sleeve Hero Tee Heather",
+          "description": "Google Men's Short Sleeve Hero Tee Heather",
+          "picture": "https://shop.googlemerchandisestore.com/store/20160512512/assets/items/images/GGOEGAAX0734.webp",
+          "priceUsd": {
+            "currencyCode": "USD",
+            "units": "1",
+            "nanos": "0"
+          },
+          "categories": [
+            "(not set)"
+          ]
+        },
+        {
+          "id": "GGOEGAAX0663",
+          "name": "Android Toddler Short Sleeve T-shirt Pink",
+          "description": "Android Toddler Short Sleeve T-shirt Pink",
+          "picture": "https://shop.googlemerchandisestore.com/store/20160512512/assets/items/images/GGOEGAAX0663.webp",
+          "priceUsd": {
+            "currencyCode": "USD",
+            "units": "1",
+            "nanos": "0"
+          },
+          "categories": [
+            "Home",
+            "Brands",
+            "Android"
+          ]
+        },
+        {
+          "id": "GGOEGAAX0687",
+          "name": "Android Youth Short Sleeve T-shirt Aqua",
+          "description": "Android Youth Short Sleeve T-shirt Aqua",
+          "picture": "https://shop.googlemerchandisestore.com/store/20160512512/assets/items/images/GGOEGAAX0687.webp",
+          "priceUsd": {
+            "currencyCode": "USD",
+            "units": "1",
+            "nanos": "0"
+          },
+          "categories": [
+            "Home",
+            "Apparel",
+            "Kid's",
+            "Kids-Youth"
+          ]
+        },
+        {
+          "id": "GGOEGAAX0361",
+          "name": "Android Women's Fleece Hoodie",
+          "description": "Android Women's Fleece Hoodie",
+          "picture": "https://shop.googlemerchandisestore.com/store/20160512512/assets/items/images/GGOEGAAX0361.webp",
+          "priceUsd": {
+            "currencyCode": "USD",
+            "units": "5",
+            "nanos": "0"
+          },
+          "categories": [
+            "(not set)"
+          ]
+        },
+        {
+          "id": "GGOEGAAX0656",
+          "name": "Google Toddler Hoodie Royal Blue",
+          "description": "Google Toddler Hoodie Royal Blue",
+          "picture": "https://shop.googlemerchandisestore.com/store/20160512512/assets/items/images/GGOEGAAX0656.webp",
+          "priceUsd": {
+            "currencyCode": "USD",
+            "units": "3",
+            "nanos": "0"
+          },
+          "categories": [
+            "(not set)"
+          ]
+        },
+        {
+          "id": "GGOEGAAX0330",
+          "name": "YouTube Men's Skater Tee Charcoal",
+          "description": "YouTube Men's Skater Tee Charcoal",
+          "picture": "https://shop.googlemerchandisestore.com/store/20160512512/assets/items/images/GGOEGAAX0330.webp",
+          "priceUsd": {
+            "currencyCode": "USD",
+            "units": "1",
+            "nanos": "0"
+          },
+          "categories": [
+            "(not set)"
+          ]
+        },
+        {
+          "id": "GGOEGAAX0297",
+          "name": "Google Women's Short Sleeve Hero Tee Red Heather",
+          "description": "Google Women's Short Sleeve Hero Tee Red Heather",
+          "picture": "https://shop.googlemerchandisestore.com/store/20160512512/assets/items/images/GGOEGAAX0297.webp",
+          "priceUsd": {
+            "currencyCode": "USD",
+            "units": "1",
+            "nanos": "0"
+          },
+          "categories": [
+            "Home",
+            "Apparel",
+            "Women's"
+          ]
+        },
+        {
+          "id": "GGOEGBMB073799",
+          "name": "Google Zipper-front Sports Bag",
+          "description": "Google Zipper-front Sports Bag",
+          "picture": "https://shop.googlemerchandisestore.com/store/20160512512/assets/items/images/GGOEGBMB073799.webp",
+          "priceUsd": {
+            "currencyCode": "USD",
+            "units": "1",
+            "nanos": "0"
+          },
+          "categories": [
+            "(not set)"
+          ]
+        },
+        {
+          "id": "GGOEGHPA003010",
+          "name": "Google Wool Heather Cap Heather/Navy",
+          "description": "Google Wool Heather Cap Heather/Navy",
+          "picture": "https://shop.googlemerchandisestore.com/store/20160512512/assets/items/images/GGOEGHPA003010.webp",
+          "priceUsd": {
+            "currencyCode": "USD",
+            "units": "2",
+            "nanos": "0"
+          },
+          "categories": [
+            "(not set)"
+          ]
+        },
+        {
+          "id": "GGOEGAAX0283",
+          "name": "Android Women's Short Sleeve Hero Tee Black",
+          "description": "Android Women's Short Sleeve Hero Tee Black",
+          "picture": "https://shop.googlemerchandisestore.com/store/20160512512/assets/items/images/GGOEGAAX0283.webp",
+          "priceUsd": {
+            "currencyCode": "USD",
+            "units": "1",
+            "nanos": "0"
+          },
+          "categories": [
+            "Home",
+            "Apparel",
+            "Women's",
+            "Women's-T-Shirts"
+          ]
+        },
+        {
+          "id": "GGOEGAAX0360",
+          "name": "Google Women's Fleece Hoodie",
+          "description": "Google Women's Fleece Hoodie",
+          "picture": "https://shop.googlemerchandisestore.com/store/20160512512/assets/items/images/GGOEGAAX0360.webp",
+          "priceUsd": {
+            "currencyCode": "USD",
+            "units": "4",
+            "nanos": "0"
+          },
+          "categories": [
+            "Home",
+            "Shop by Brand",
+            "Google"
+          ]
+        },
+        {
+          "id": "GGOEGAAX0621",
+          "name": "Google Infant Short Sleeve Tee Cornflower Blue",
+          "description": "Google Infant Short Sleeve Tee Cornflower Blue",
+          "picture": "https://shop.googlemerchandisestore.com/store/20160512512/assets/items/images/GGOEGAAX0621.webp",
+          "priceUsd": {
+            "currencyCode": "USD",
+            "units": "1",
+            "nanos": "0"
+          },
+          "categories": [
+            "Home",
+            "Apparel",
+            "Kid's",
+            "Kid's-Infant"
+          ]
+        },
+        {
+          "id": "GGOEGAAX0333",
+          "name": "Google Men's Long Sleeve Pullover Badge Tee Heather",
+          "description": "Google Men's Long Sleeve Pullover Badge Tee Heather",
+          "picture": "https://shop.googlemerchandisestore.com/store/20160512512/assets/items/images/GGOEGAAX0333.webp",
+          "priceUsd": {
+            "currencyCode": "USD",
+            "units": "2",
+            "nanos": "0"
+          },
+          "categories": [
+            "Home",
+            "Apparel",
+            "Men's",
+            "Men's-T-Shirts"
+          ]
+        },
+        {
+          "id": "GGOEGBRB073899",
+          "name": "Google Laptop Tech Backpack",
+          "description": "Google Laptop Tech Backpack",
+          "picture": "https://shop.googlemerchandisestore.com/store/20160512512/assets/items/images/GGOEGBRB073899.webp",
+          "priceUsd": {
+            "currencyCode": "USD",
+            "units": "4",
+            "nanos": "0"
+          },
+          "categories": [
+            "Home",
+            "Bags"
+          ]
+        },
+        {
+          "id": "GGOEGAAX0586",
+          "name": "Google Women's Yoga Jacket Black",
+          "description": "Google Women's Yoga Jacket Black",
+          "picture": "https://shop.googlemerchandisestore.com/store/20160512512/assets/items/images/GGOEGAAX0586.webp",
+          "priceUsd": {
+            "currencyCode": "USD",
+            "units": "10",
+            "nanos": "0"
+          },
+          "categories": [
+            "Home",
+            "Shop by Brand",
+            "Google"
+          ]
+        },
+        {
+          "id": "GGOEGBPB021199",
+          "name": "Google Slim Utility Travel Bag",
+          "description": "Google Slim Utility Travel Bag",
+          "picture": "https://shop.googlemerchandisestore.com/store/20160512512/assets/items/images/GGOEGBPB021199.webp",
+          "priceUsd": {
+            "currencyCode": "USD",
+            "units": "1",
+            "nanos": "0"
+          },
+          "categories": [
+            "Home",
+            "Limited Supply",
+            "Bags"
+          ]
+        },
+        {
+          "id": "GGOEGAAX0313",
+          "name": "Google Tri-blend Hoodie Grey",
+          "description": "Google Tri-blend Hoodie Grey",
+          "picture": "https://shop.googlemerchandisestore.com/store/20160512512/assets/items/images/GGOEGAAX0313.webp",
+          "priceUsd": {
+            "currencyCode": "USD",
+            "units": "3",
+            "nanos": "0"
+          },
+          "categories": [
+            "Home",
+            "Shop by Brand",
+            "Google"
+          ]
+        },
+        {
+          "id": "GGOEGAAX0296",
+          "name": "YouTube Women's Short Sleeve Tri-blend Badge Tee Grey",
+          "description": "YouTube Women's Short Sleeve Tri-blend Badge Tee Grey",
+          "picture": "https://shop.googlemerchandisestore.com/store/20160512512/assets/items/images/GGOEGAAX0296.webp",
+          "priceUsd": {
+            "currencyCode": "USD",
+            "units": "1",
+            "nanos": "0"
+          },
+          "categories": [
+            "Home",
+            "Apparel",
+            "Women's",
+            "Women's-T-Shirts"
+          ]
+        },
+        {
+          "id": "GGOEGAAX0346",
+          "name": "YouTube Men's Vintage Tee",
+          "description": "YouTube Men's Vintage Tee",
+          "picture": "https://shop.googlemerchandisestore.com/store/20160512512/assets/items/images/GGOEGAAX0346.webp",
+          "priceUsd": {
+            "currencyCode": "USD",
+            "units": "1",
+            "nanos": "0"
+          },
+          "categories": [
+            "(not set)"
+          ]
+        },
+        {
+          "id": "GGOEGAAX0627",
+          "name": "Google Infant Zip Hood Pink",
+          "description": "Google Infant Zip Hood Pink",
+          "picture": "https://shop.googlemerchandisestore.com/store/20160512512/assets/items/images/GGOEGAAX0627.webp",
+          "priceUsd": {
+            "currencyCode": "USD",
+            "units": "3",
+            "nanos": "0"
+          },
+          "categories": [
+            "Home",
+            "Apparel"
+          ]
+        },
+        {
+          "id": "GGOEGXXX0845",
+          "name": "BLM Sweatshirt",
+          "description": "BLM Sweatshirt",
+          "picture": "https://shop.googlemerchandisestore.com/store/20160512512/assets/items/images/GGOEGXXX0845.webp",
+          "priceUsd": {
+            "currencyCode": "USD",
+            "units": "4",
+            "nanos": "0"
+          },
+          "categories": [
+            "Home",
+            "Apparel",
+            "Men's"
+          ]
+        },
+        {
+          "id": "GGOEGEVB071299",
+          "name": "Digital Lightshow Smart Speaker and Notification Center",
+          "description": "Digital Lightshow Smart Speaker and Notification Center",
+          "picture": "https://shop.googlemerchandisestore.com/store/20160512512/assets/items/images/GGOEGEVB071299.webp",
+          "priceUsd": {
+            "currencyCode": "USD",
+            "units": "8",
+            "nanos": "0"
+          },
+          "categories": [
+            "Home",
+            "Electronics",
+            "Audio"
+          ]
+        },
+        {
+          "id": "GGOEGAAX0605",
+          "name": "Google Women's Quilted Insulated Vest Pewter",
+          "description": "Google Women's Quilted Insulated Vest Pewter",
+          "picture": "https://shop.googlemerchandisestore.com/store/20160512512/assets/items/images/GGOEGAAX0605.webp",
+          "priceUsd": {
+            "currencyCode": "USD",
+            "units": "7",
+            "nanos": "0"
+          },
+          "categories": [
+            "Home",
+            "Shop by Brand",
+            "Google"
+          ]
+        },
+        {
+          "id": "GGOEGAAX0581",
+          "name": "Google Women's Colorblock Tee White",
+          "description": "Google Women's Colorblock Tee White",
+          "picture": "https://shop.googlemerchandisestore.com/store/20160512512/assets/items/images/GGOEGAAX0581.webp",
+          "priceUsd": {
+            "currencyCode": "USD",
+            "units": "4",
+            "nanos": "0"
+          },
+          "categories": [
+            "Home",
+            "Apparel",
+            "Women's",
+            "Women's-T-Shirts"
+          ]
+        },
+        {
+          "id": "GGOEGAAX0325",
+          "name": "YouTube Men's Short Sleeve Hero Tee Charcoal",
+          "description": "YouTube Men's Short Sleeve Hero Tee Charcoal",
+          "picture": "https://shop.googlemerchandisestore.com/store/20160512512/assets/items/images/GGOEGAAX0325.webp",
+          "priceUsd": {
+            "currencyCode": "USD",
+            "units": "1",
+            "nanos": "0"
+          },
+          "categories": [
+            "Home",
+            "Shop by Brand",
+            "YouTube"
+          ]
+        },
+        {
+          "id": "GGOEGAAX0620",
+          "name": "Google Infant Short Sleeve Tee Green",
+          "description": "Google Infant Short Sleeve Tee Green",
+          "picture": "https://shop.googlemerchandisestore.com/store/20160512512/assets/items/images/GGOEGAAX0620.webp",
+          "priceUsd": {
+            "currencyCode": "USD",
+            "units": "1",
+            "nanos": "0"
+          },
+          "categories": [
+            "Home",
+            "Apparel"
+          ]
+        },
+        {
+          "id": "GGOEAXXX0810",
+          "name": "Android Men's Outerstellar Short Sleeve Tee Black",
+          "description": "Android Men's Outerstellar Short Sleeve Tee Black",
+          "picture": "https://shop.googlemerchandisestore.com/store/20160512512/assets/items/images/GGOEAXXX0810.webp",
+          "priceUsd": {
+            "currencyCode": "USD",
+            "units": "1",
+            "nanos": "0"
+          },
+          "categories": [
+            "Home",
+            "Apparel",
+            "Men's"
+          ]
+        },
+        {
+          "id": "GGOEGAAX0362",
+          "name": "Google Men's Pullover Hoodie Grey",
+          "description": "Google Men's Pullover Hoodie Grey",
+          "picture": "https://shop.googlemerchandisestore.com/store/20160512512/assets/items/images/GGOEGAAX0362.webp",
+          "priceUsd": {
+            "currencyCode": "USD",
+            "units": "4",
+            "nanos": "0"
+          },
+          "categories": [
+            "Home",
+            "Shop by Brand",
+            "Google"
+          ]
+        },
+        {
+          "id": "GGOEGAAX0291",
+          "name": "Google Women's Short Sleeve Hero Tee Sky Blue",
+          "description": "Google Women's Short Sleeve Hero Tee Sky Blue",
+          "picture": "https://shop.googlemerchandisestore.com/store/20160512512/assets/items/images/GGOEGAAX0291.webp",
+          "priceUsd": {
+            "currencyCode": "USD",
+            "units": "1",
+            "nanos": "0"
+          },
+          "categories": [
+            "Home",
+            "Apparel",
+            "Women's"
+          ]
+        },
+        {
+          "id": "GGOEADWQ015699",
+          "name": "Android Rise 14 oz Mug",
+          "description": "Android Rise 14 oz Mug",
+          "picture": "https://shop.googlemerchandisestore.com/store/20160512512/assets/items/images/GGOEADWQ015699.webp",
+          "priceUsd": {
+            "currencyCode": "USD",
+            "units": "1",
+            "nanos": "0"
+          },
+          "categories": [
+            "Home",
+            "Shop by Brand",
+            "Android"
+          ]
+        },
+        {
+          "id": "GGOEGAAX0623",
+          "name": "YouTube Infant Short Sleeve Tee Red",
+          "description": "YouTube Infant Short Sleeve Tee Red",
+          "picture": "https://shop.googlemerchandisestore.com/store/20160512512/assets/items/images/GGOEGAAX0623.webp",
+          "priceUsd": {
+            "currencyCode": "USD",
+            "units": "1",
+            "nanos": "0"
+          },
+          "categories": [
+            "Home",
+            "Apparel"
+          ]
+        },
+        {
+          "id": "GGOEGAAX0329",
+          "name": "Android Men's Skater Badge Tee Charcoal",
+          "description": "Android Men's Skater Badge Tee Charcoal",
+          "picture": "https://shop.googlemerchandisestore.com/store/20160512512/assets/items/images/GGOEGAAX0329.webp",
+          "priceUsd": {
+            "currencyCode": "USD",
+            "units": "1",
+            "nanos": "0"
+          },
+          "categories": [
+            "Home",
+            "Apparel",
+            "Men's"
+          ]
+        },
+        {
+          "id": "GGOEGAAX0327",
+          "name": "Google Men's Skater Tee Grey",
+          "description": "Google Men's Skater Tee Grey",
+          "picture": "https://shop.googlemerchandisestore.com/store/20160512512/assets/items/images/GGOEGAAX0327.webp",
+          "priceUsd": {
+            "currencyCode": "USD",
+            "units": "1",
+            "nanos": "0"
+          },
+          "categories": [
+            "Home",
+            "Apparel",
+            "Men's"
+          ]
+        },
+        {
+          "id": "GGOEWCKQ085457",
+          "name": "Waze Pack of 9 Decal Set",
+          "description": "Waze Pack of 9 Decal Set",
+          "picture": "https://shop.googlemerchandisestore.com/store/20160512512/assets/items/images/GGOEWCKQ085457.webp",
+          "priceUsd": {
+            "currencyCode": "USD",
+            "units": "1",
+            "nanos": "0"
+          },
+          "categories": [
+            "Home",
+            "Accessories"
+          ]
+        },
+        {
+          "id": "GGOEGAAX0613",
+          "name": "Google Onesie Green",
+          "description": "Google Onesie Green",
+          "picture": "https://shop.googlemerchandisestore.com/store/20160512512/assets/items/images/GGOEGAAX0613.webp",
+          "priceUsd": {
+            "currencyCode": "USD",
+            "units": "2",
+            "nanos": "0"
+          },
+          "categories": [
+            "Home",
+            "Shop by Brand",
+            "Google"
+          ]
+        },
+        {
+          "id": "GGOEYOCR077799",
+          "name": "YouTube Hard Cover Journal",
+          "description": "YouTube Hard Cover Journal",
+          "picture": "https://shop.googlemerchandisestore.com/store/20160512512/assets/items/images/GGOEYOCR077799.webp",
+          "priceUsd": {
+            "currencyCode": "USD",
+            "units": "1",
+            "nanos": "0"
+          },
+          "categories": [
+            "Home",
+            "Shop by Brand",
+            "YouTube"
+          ]
+        },
+        {
+          "id": "GGOEGBJB022599",
+          "name": "Large Zipper Top Tote Bag",
+          "description": "Large Zipper Top Tote Bag",
+          "picture": "https://shop.googlemerchandisestore.com/store/20160512512/assets/items/images/GGOEGBJB022599.webp",
+          "priceUsd": {
+            "currencyCode": "USD",
+            "units": "3",
+            "nanos": "0"
+          },
+          "categories": [
+            "(not set)"
+          ]
+        },
+        {
+          "id": "GGOEGAAX0759",
+          "name": "Google Adult Tee Fruit Games Pineapple",
+          "description": "Google Adult Tee Fruit Games Pineapple",
+          "picture": "https://shop.googlemerchandisestore.com/store/20160512512/assets/items/images/GGOEGAAX0759.webp",
+          "priceUsd": {
+            "currencyCode": "USD",
+            "units": "2",
+            "nanos": "0"
+          },
+          "categories": [
+            "Home",
+            "Fruit Games"
+          ]
+        },
+        {
+          "id": "GGOEGAAX0353",
+          "name": "Google Vintage Henley Grey/Black",
+          "description": "Google Vintage Henley Grey/Black",
+          "picture": "https://shop.googlemerchandisestore.com/store/20160512512/assets/items/images/GGOEGAAX0353.webp",
+          "priceUsd": {
+            "currencyCode": "USD",
+            "units": "2",
+            "nanos": "0"
+          },
+          "categories": [
+            "Home",
+            "Apparel"
+          ]
+        },
+        {
+          "id": "GGOEGEVB070699",
+          "name": "Google Bluetooth Speaker-Power Bank",
+          "description": "Google Bluetooth Speaker-Power Bank",
+          "picture": "https://shop.googlemerchandisestore.com/store/20160512512/assets/items/images/GGOEGEVB070699.webp",
+          "priceUsd": {
+            "currencyCode": "USD",
+            "units": "7",
+            "nanos": "0"
+          },
+          "categories": [
+            "(not set)"
+          ]
+        },
+        {
+          "id": "GGOEGAAX0758",
+          "name": "Google Adult Tee Fruit Games Cherries",
+          "description": "Google Adult Tee Fruit Games Cherries",
+          "picture": "https://shop.googlemerchandisestore.com/store/20160512512/assets/items/images/GGOEGAAX0758.webp",
+          "priceUsd": {
+            "currencyCode": "USD",
+            "units": "2",
+            "nanos": "0"
+          },
+          "categories": [
+            "Home",
+            "Fruit Games"
+          ]
+        },
+        {
+          "id": "GGOEGAAX0031",
+          "name": "Google Stretch Fit Hat",
+          "description": "Google Stretch Fit Hat",
+          "picture": "https://shop.googlemerchandisestore.com/store/20160512512/assets/items/images/GGOEGAAX0031.webp",
+          "priceUsd": {
+            "currencyCode": "USD",
+            "units": "2",
+            "nanos": "0"
+          },
+          "categories": [
+            "Home",
+            "Shop by Brand",
+            "Google"
+          ]
         }
-    ]
+      ]
 }

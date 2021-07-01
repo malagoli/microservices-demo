@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-apiVersion: skaffold/v1beta2
+apiVersion: skaffold/v2beta17
 kind: Config
 build:
   artifacts:
@@ -38,8 +38,19 @@ build:
     context: src/cartservice/src
   - image: frontend
     context: src/frontend
-  - image: loadgenerator
-    context: src/loadgenerator
+    docker:
+      buildArgs:
+        GTM: '{{ .GTM }}'
+        DIALOGFLOW_LOCATION: '{{ .DIALOGFLOW_LOCATION }}'
+        DIALOGFLOW_AGENT_ID: '{{ .DIALOGFLOW_AGENT_ID }}'
+        DIALOGFLOW_LANG: '{{ .DIALOGFLOW_LANG }}'
+  - image: tracking
+    context: src/trackingservice
+    docker:
+      buildArgs:
+        PROJECT_ID: '{{ .PROJECT_ID }}'
+#  - image: loadgenerator
+#    context: src/loadgenerator
   - image: adservice
     context: src/adservice
   tagPolicy:

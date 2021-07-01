@@ -43,12 +43,13 @@ var (
 	templates = template.Must(template.New("").
 			Funcs(template.FuncMap{
 			"renderMoney":        renderMoney,
+			"renderMoneyValue":   renderMoneyValue,
 			"renderCurrencyLogo": renderCurrencyLogo,
 		}).ParseGlob("templates/*.html"))
 	plat platformDetails
 )
 
-var validEnvs = []string{"local", "gcp", "azure", "aws", "onprem", "alibaba"}
+var validEnvs = []string{"local", "gcp", "azure", "aws", "onprem"}
 
 func (fe *frontendServer) homeHandler(w http.ResponseWriter, r *http.Request) {
 	log := r.Context().Value(ctxKeyLog{}).(logrus.FieldLogger)
@@ -102,17 +103,21 @@ func (fe *frontendServer) homeHandler(w http.ResponseWriter, r *http.Request) {
 	plat.setPlatformDetails(strings.ToLower(env))
 
 	if err := templates.ExecuteTemplate(w, "home", map[string]interface{}{
-		"session_id":    sessionID(r),
-		"request_id":    r.Context().Value(ctxKeyRequestID{}),
-		"user_currency": currentCurrency(r),
-		"show_currency": true,
-		"currencies":    currencies,
-		"products":      ps,
-		"cart_size":     cartSize(cart),
-		"banner_color":  os.Getenv("BANNER_COLOR"), // illustrates canary deployments
-		"ad":            fe.chooseAd(r.Context(), []string{}, log),
-		"platform_css":  plat.css,
-		"platform_name": plat.provider,
+		"session_id":          sessionID(r),
+		"request_id":          r.Context().Value(ctxKeyRequestID{}),
+		"user_currency":       currentCurrency(r),
+		"show_currency":       true,
+		"currencies":          currencies,
+		"products":            ps,
+		"cart_size":           cartSize(cart),
+		"banner_color":        os.Getenv("BANNER_COLOR"), // illustrates canary deployments
+		"ad":                  fe.chooseAd(r.Context(), []string{}, log),
+		"platform_css":        plat.css,
+		"platform_name":       plat.provider,
+		"gtm":                 os.Getenv("GTM"),
+		"dialogflow_location": os.Getenv("DIALOGFLOW_LOCATION"),
+		"dialogflow_agent_id": os.Getenv("DIALOGFLOW_AGENT_ID"),
+		"dialogflow_lang":     os.Getenv("DIALOGFLOW_LANG"),
 	}); err != nil {
 		log.Error(err)
 	}
@@ -131,9 +136,6 @@ func (plat *platformDetails) setPlatformDetails(env string) {
 	} else if env == "gcp" {
 		plat.provider = "Google Cloud"
 		plat.css = "gcp-platform"
-	} else if env == "alibaba" {
-		plat.provider = "Alibaba Cloud"
-		plat.css = "alibaba-platform"
 	} else {
 		plat.provider = "local"
 		plat.css = "local"
@@ -477,6 +479,10 @@ func cartSize(c []*pb.CartItem) int {
 
 func renderMoney(money pb.Money) string {
 	return fmt.Sprintf("%s %d.%02d", money.GetCurrencyCode(), money.GetUnits(), money.GetNanos()/10000000)
+}
+
+func renderMoneyValue(money pb.Money) string {
+	return fmt.Sprintf("%d.%02d", money.GetUnits(), money.GetNanos()/10000000)
 }
 
 func renderCurrencyLogo(currencyCode string) string {

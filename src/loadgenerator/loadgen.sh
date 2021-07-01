@@ -1,4 +1,6 @@
-# Copyright 2020 Google LLC
+#!/bin/bash
+#
+# Copyright 2018 Google LLC
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -12,24 +14,22 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-FROM python:3.8-slim as base
+set -e
+trap "exit" TERM
 
-FROM base as builder
+if [[ -z "${FRONTEND_ADDR}" ]]; then
+    echo >&2 "FRONTEND_ADDR not specified"
+    exit 1
+fi
 
-RUN apt-get -qq update \
-    && apt-get install -y --no-install-recommends \
-        g++
+set -x
 
-COPY requirements.txt .
+# if one request to the frontend fails, then exit
+STATUSCODE=$(curl --silent --output /dev/stderr --write-out "%{http_code}" http://${FRONTEND_ADDR})
+if test $STATUSCODE -ne 200; then
+    echo "Error: Could not reach frontend - Status code: ${STATUSCODE}"
+    exit 1
+fi
 
-RUN pip install --prefix="/install" -r requirements.txt
-
-FROM base
-COPY --from=builder /install /usr/local
-
-COPY . .
-RUN chmod +x ./loadgen.sh
-RUN apt-get -qq update \
-    && apt-get install -y --no-install-recommends \
-        curl
-ENTRYPOINT ./loadgen.sh
+# else, run loadgen
+locust --host="http://${FRONTEND_ADDR}" --headless -u "${USERS:-10}" 2>&1
