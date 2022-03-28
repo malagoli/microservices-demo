@@ -40,7 +40,8 @@ type platformDetails struct {
 }
 
 var (
-	templates = template.Must(template.New("").
+	isCymbalBrand = "true" == strings.ToLower(os.Getenv("CYMBAL_BRANDING"))
+	templates     = template.Must(template.New("").
 			Funcs(template.FuncMap{
 			"renderMoney":        renderMoney,
 			"renderMoneyValue":   renderMoneyValue,
@@ -103,17 +104,19 @@ func (fe *frontendServer) homeHandler(w http.ResponseWriter, r *http.Request) {
 	plat.setPlatformDetails(strings.ToLower(env))
 
 	if err := templates.ExecuteTemplate(w, "home", map[string]interface{}{
-		"session_id":          sessionID(r),
-		"request_id":          r.Context().Value(ctxKeyRequestID{}),
-		"user_currency":       currentCurrency(r),
-		"show_currency":       true,
-		"currencies":          currencies,
-		"products":            ps,
-		"cart_size":           cartSize(cart),
-		"banner_color":        os.Getenv("BANNER_COLOR"), // illustrates canary deployments
-		"ad":                  fe.chooseAd(r.Context(), []string{}, log),
-		"platform_css":        plat.css,
-		"platform_name":       plat.provider,
+		"session_id":        sessionID(r),
+		"request_id":        r.Context().Value(ctxKeyRequestID{}),
+		"user_currency":     currentCurrency(r),
+		"show_currency":     true,
+		"currencies":        currencies,
+		"products":          ps,
+		"cart_size":         cartSize(cart),
+		"banner_color":      os.Getenv("BANNER_COLOR"), // illustrates canary deployments
+		"ad":                fe.chooseAd(r.Context(), []string{}, log),
+		"platform_css":      plat.css,
+		"platform_name":     plat.provider,
+		"is_cymbal_brand":   isCymbalBrand,
+		"deploymentDetails": deploymentDetailsMap,
 		"gtm":                 os.Getenv("GTM"),
 		"dialogflow_location": os.Getenv("DIALOGFLOW_LOCATION"),
 		"dialogflow_agent_id": os.Getenv("DIALOGFLOW_AGENT_ID"),
@@ -187,17 +190,19 @@ func (fe *frontendServer) productHandler(w http.ResponseWriter, r *http.Request)
 	}{p, price}
 
 	if err := templates.ExecuteTemplate(w, "product", map[string]interface{}{
-		"session_id":          sessionID(r),
-		"request_id":          r.Context().Value(ctxKeyRequestID{}),
-		"ad":                  fe.chooseAd(r.Context(), p.Categories, log),
-		"user_currency":       currentCurrency(r),
-		"show_currency":       true,
-		"currencies":          currencies,
-		"product":             product,
-		"recommendations":     recommendations,
-		"cart_size":           cartSize(cart),
-		"platform_css":        plat.css,
-		"platform_name":       plat.provider,
+		"session_id":        sessionID(r),
+		"request_id":        r.Context().Value(ctxKeyRequestID{}),
+		"ad":                fe.chooseAd(r.Context(), p.Categories, log),
+		"user_currency":     currentCurrency(r),
+		"show_currency":     true,
+		"currencies":        currencies,
+		"product":           product,
+		"recommendations":   recommendations,
+		"cart_size":         cartSize(cart),
+		"platform_css":      plat.css,
+		"platform_name":     plat.provider,
+		"is_cymbal_brand":   isCymbalBrand,
+		"deploymentDetails": deploymentDetailsMap,
 		"gtm":                 os.Getenv("GTM"),
 		"dialogflow_location": os.Getenv("DIALOGFLOW_LOCATION"),
 		"dialogflow_agent_id": os.Getenv("DIALOGFLOW_AGENT_ID"),
@@ -296,22 +301,24 @@ func (fe *frontendServer) viewCartHandler(w http.ResponseWriter, r *http.Request
 		totalPrice = money.Must(money.Sum(totalPrice, multPrice))
 	}
 	totalPrice = money.Must(money.Sum(totalPrice, *shippingCost))
-
 	year := time.Now().Year()
+
 	if err := templates.ExecuteTemplate(w, "cart", map[string]interface{}{
-		"session_id":          sessionID(r),
-		"request_id":          r.Context().Value(ctxKeyRequestID{}),
-		"user_currency":       currentCurrency(r),
-		"currencies":          currencies,
-		"recommendations":     recommendations,
-		"cart_size":           cartSize(cart),
-		"shipping_cost":       shippingCost,
-		"show_currency":       true,
-		"total_cost":          totalPrice,
-		"items":               items,
-		"expiration_years":    []int{year, year + 1, year + 2, year + 3, year + 4},
-		"platform_css":        plat.css,
-		"platform_name":       plat.provider,
+		"session_id":        sessionID(r),
+		"request_id":        r.Context().Value(ctxKeyRequestID{}),
+		"user_currency":     currentCurrency(r),
+		"currencies":        currencies,
+		"recommendations":   recommendations,
+		"cart_size":         cartSize(cart),
+		"shipping_cost":     shippingCost,
+		"show_currency":     true,
+		"total_cost":        totalPrice,
+		"items":             items,
+		"expiration_years":  []int{year, year + 1, year + 2, year + 3, year + 4},
+		"platform_css":      plat.css,
+		"platform_name":     plat.provider,
+		"is_cymbal_brand":   isCymbalBrand,
+		"deploymentDetails": deploymentDetailsMap,
 		"gtm":                 os.Getenv("GTM"),
 		"dialogflow_location": os.Getenv("DIALOGFLOW_LOCATION"),
 		"dialogflow_agent_id": os.Getenv("DIALOGFLOW_AGENT_ID"),
@@ -377,16 +384,18 @@ func (fe *frontendServer) placeOrderHandler(w http.ResponseWriter, r *http.Reque
 	}
 
 	if err := templates.ExecuteTemplate(w, "order", map[string]interface{}{
-		"session_id":          sessionID(r),
-		"request_id":          r.Context().Value(ctxKeyRequestID{}),
-		"user_currency":       currentCurrency(r),
-		"show_currency":       false,
-		"currencies":          currencies,
-		"order":               order.GetOrder(),
-		"total_paid":          &totalPaid,
-		"recommendations":     recommendations,
-		"platform_css":        plat.css,
-		"platform_name":       plat.provider,
+		"session_id":        sessionID(r),
+		"request_id":        r.Context().Value(ctxKeyRequestID{}),
+		"user_currency":     currentCurrency(r),
+		"show_currency":     false,
+		"currencies":        currencies,
+		"order":             order.GetOrder(),
+		"total_paid":        &totalPaid,
+		"recommendations":   recommendations,
+		"platform_css":      plat.css,
+		"platform_name":     plat.provider,
+		"is_cymbal_brand":   isCymbalBrand,
+		"deploymentDetails": deploymentDetailsMap,
 		"gtm":                 os.Getenv("GTM"),
 		"dialogflow_location": os.Getenv("DIALOGFLOW_LOCATION"),
 		"dialogflow_agent_id": os.Getenv("DIALOGFLOW_AGENT_ID"),
@@ -445,12 +454,14 @@ func renderHTTPError(log logrus.FieldLogger, r *http.Request, w http.ResponseWri
 	errMsg := fmt.Sprintf("%+v", err)
 
 	w.WriteHeader(code)
+
 	if templateErr := templates.ExecuteTemplate(w, "error", map[string]interface{}{
-		"session_id":          sessionID(r),
-		"request_id":          r.Context().Value(ctxKeyRequestID{}),
-		"error":               errMsg,
-		"status_code":         code,
-		"status":              http.StatusText(code),
+		"session_id":        sessionID(r),
+		"request_id":        r.Context().Value(ctxKeyRequestID{}),
+		"error":             errMsg,
+		"status_code":       code,
+		"status":            http.StatusText(code),
+		"deploymentDetails": deploymentDetailsMap,
 		"gtm":                 os.Getenv("GTM"),
 		"dialogflow_location": os.Getenv("DIALOGFLOW_LOCATION"),
 		"dialogflow_agent_id": os.Getenv("DIALOGFLOW_AGENT_ID"),
@@ -494,7 +505,8 @@ func cartSize(c []*pb.CartItem) int {
 }
 
 func renderMoney(money pb.Money) string {
-	return fmt.Sprintf("%s %d.%02d", money.GetCurrencyCode(), money.GetUnits(), money.GetNanos()/10000000)
+	currencyLogo := renderCurrencyLogo(money.GetCurrencyCode())
+	return fmt.Sprintf("%s%d.%02d", currencyLogo, money.GetUnits(), money.GetNanos()/10000000)
 }
 
 func renderMoneyValue(money pb.Money) string {
